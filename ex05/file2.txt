@@ -1,2 +1,5 @@
 File 2 content part 1
+Space under
+
+Space above
 File 2 content part 2
