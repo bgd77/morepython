@@ -13,7 +13,7 @@ parser.add_argument('-s', '--squeeze-blank', action='store_true',
     help="Suppress repeated empty output lines")
 parser.add_argument('-o', nargs=1, help="The file in which to print the output")
 args = parser.parse_args()
-\
+
 def is_line_blank(line):
     if line.strip():
         return False
